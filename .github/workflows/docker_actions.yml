@@ -2,8 +2,8 @@ name: nwchem_docker
 
 on:
   release:
-  schedule:
-    - cron: '0 2 * * *'
+  # schedule:
+  #   - cron: '0 2 * * *'
   repository_dispatch:
     types: [backend_automation]
   workflow_dispatch:

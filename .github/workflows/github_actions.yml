@@ -6,8 +6,8 @@ on:
       - .gitlab-ci.yml
   pull_request:
   release:
-  schedule:
-    - cron: '0 0 * * SUN'
+  # schedule:
+  #   - cron: '0 0 * * SUN'
   repository_dispatch:
     types: [backend_automation]
   workflow_dispatch:
